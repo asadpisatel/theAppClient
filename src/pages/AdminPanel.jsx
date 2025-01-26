@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "../axiosInstance.js";
 import React, { useEffect, useState } from "react";
 import getFormattedDate from "../utils/formatting.js";
 import sortByLastLogin from "../utils/sort.js";
